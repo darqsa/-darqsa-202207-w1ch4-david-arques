@@ -13,6 +13,7 @@ img {
 header {
   display: flex;
   padding: 30px 20px;
+  height: 90px;
   justify-content: space-between;
   background-color: #5e81d1;
   color: rgb(29, 29, 29);
@@ -30,4 +31,14 @@ header li {
 }
 .actual-page {
   font-weight: bold;
+}
+
+.switch-page {
+  display: flex;
+  padding: 30px 20px;
+  height: 90px;
+  justify-content: space-between;
+  background-color: #f87500;
+  color: rgb(29, 29, 29);
+  align-items: center;
 }
